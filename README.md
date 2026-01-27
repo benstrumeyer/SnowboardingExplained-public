@@ -429,6 +429,7 @@ backend/
 - Real-time 3D pose visualization from any angle
 - Timestamped comments for coaching feedback
 - Cost-optimized: ~$5/month for 1000 users
+- Computer vision features are gated for full students only
 
 ---
 
