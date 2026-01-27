@@ -375,10 +375,10 @@ app.get('/videos/:videoId', (req, res) => {
 | Infrastructure | Docker, Terraform, AWS (ECS, ECR, ALB, S3, CloudFront) |
 
 ---
-
+```
+```
 ## Key Components
 
-```
 frontend/
 ├── engine/
 │   └── PlaybackEngine.ts      # RAF loop, timing, events
