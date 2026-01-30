@@ -433,6 +433,45 @@ backend/
 
 ---
 
+## Future Work & Ideas
+
+### Intelligent Video & Pose Caching
+
+- Hash video file bytes to create a deterministic cache key
+- Reuse previously processed pose data when the same video is uploaded again
+- Background job queue for GPU-heavy pose processing with status tracking
+- Video library UI showing processing state, cached results, and history
+
+### Canonical Trick Models
+
+- Build a library of "ideal" trick executions (e.g. backside 720) as pose sequences over time
+- Compare rider pose data against canonical trick sequences frame-by-frame
+- Measure joint angles, rotation timing, and body alignment relative to ideal form
+- Use this as the foundation for all coaching feedback
+
+### Visual Coaching Aids
+
+- Ghost overlays of ideal pose sequences layered over rider video
+- Joint angle arcs, rotation axes, and body orientation indicators
+- Per-frame metrics highlighting where form deviates most
+- Loopable comparison views for focused drill-down on takeoff, rotation, and landing phases
+
+### Coach-Driven Feedback Flow
+
+- Coaches generate shareable links that preload aligned, side-by-side comparisons
+- No setup required for the student — link opens directly into scrub-ready analysis
+- Query parameters define alignment, loop range, playback speed, and camera view
+- Designed for quick reviews on the chairlift or between runs
+
+### Toward an AI Snowboard Coach
+
+- Break tricks into understandable phases (approach, takeoff, rotation, landing)
+- Evaluate pose deviations per phase instead of treating tricks as a single motion
+- MCP-driven coaching logic to map detected issues to fundamental snowboard concepts
+- Automatically recommend drills and reference videos based on detected form issues
+
+---
+
 ## License
 
 MIT
