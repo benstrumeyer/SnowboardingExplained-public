@@ -438,9 +438,7 @@ backend/
 ### Intelligent Video & Pose Caching
 
 - Hash video file bytes to create a deterministic cache key
-- Reuse previously processed pose data when the same video is uploaded again
 - Background job queue for GPU-heavy pose processing with status tracking
-- Video library UI showing processing state, cached results, and history
 
 ### Canonical Trick Models
 
