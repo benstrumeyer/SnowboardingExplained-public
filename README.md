@@ -1,6 +1,10 @@
 # Snowboarding Coach AI
 
-Working with [SnowboardingExplained](https://www.youtube.com/@SnowboardingExplained) to coach hundreds of snowboarders to the pro level. The ultimate goal is an AI-powered video coach, but for now we have tools that help us learn how to snowboard.
+Working with [SnowboardingExplained](https://www.youtube.com/@SnowboardingExplained) to coach pro rider **Andrew Somers** and hundreds of other snowboarders to the pro level. The ultimate goal is an AI-powered video coach, but for now we have tools that help us learn how to snowboard.
+
+- Built a frame-level video comparison tool to compare snowboarder form versus ideal trick execution
+- Developed a fast, shared video scrubber using HTTP range requests and CloudFront CDN for instant seeking
+- Created using TypeScript, Python, Three.js, PyTorch, AWS, React, MongoDB, Playwright, 4D-Humans, FFmpeg
 
 **Live Demo:** [snowboarding-explained.com](https://snowboarding-explained.com)
 
