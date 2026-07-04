@@ -8,6 +8,8 @@ Working with [SnowboardingExplained](https://www.youtube.com/@SnowboardingExplai
 
 **Live Demo:** [snowboarding-explained.com](https://snowboarding-explained.com)
 
+> **In progress — Realtime Training App:** live, on-device form feedback from your webcam (MediaPipe pose) so you can drill a trick's motion and get corrected in the moment — no upload, no wait. The frame-by-frame tools below are what's shipping today.
+
 ---
 
 ## Tool 1: Frame-by-Frame Video Comparison Player
