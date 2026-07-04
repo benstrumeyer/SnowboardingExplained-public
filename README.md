@@ -1,14 +1,10 @@
-# Snowboarding Coach AI
+# Snowboarding Compare Studio
 
-Working with [SnowboardingExplained](https://www.youtube.com/@SnowboardingExplained) to coach pro rider **Taevis Kapalka** and hundreds of other snowboarders to the pro level. The ultimate goal is an AI-powered video coach, but for now we have tools that help us learn how to snowboard.
-
-- Built a frame-level video comparison tool to compare snowboarder form versus ideal trick execution
-- Developed a fast, shared video scrubber using HTTP range requests and CloudFront CDN for instant seeking
-- Created using TypeScript, Python, Three.js, PyTorch, AWS, React, MongoDB, Playwright, 4D-Humans, FFmpeg
+- Building the first real-time training app for pro-level rotations (720s–1620s) with my coach, [Snowboarding Explained](https://www.youtube.com/@SnowboardingExplained)
+- Trained computer vision models on a proprietary dataset of 1,200 analysis videos to correct form in real time
+- TypeScript, Python, Three.js, WebRTC, PyTorch, AWS, React, MongoDB, Playwright, 4D-Humans, FFmpeg
 
 **Live Demo:** [snowboarding-explained.shellphone.net](https://snowboarding-explained.shellphone.net/)
-
-> **In progress — Realtime Training App:** live, on-device form feedback from your webcam (MediaPipe pose) so you can drill a trick's motion and get corrected in the moment — no upload, no wait. The frame-by-frame tools below are what's shipping today.
 
 ---
 
@@ -467,7 +463,7 @@ backend/
 - Query parameters define alignment, loop range, playback speed, and camera view
 - Designed for quick reviews on the chairlift or between runs
 
-### Toward an AI Snowboard Coach
+### Automated Form Feedback
 
 - Break tricks into understandable phases (approach, takeoff, rotation, landing)
 - Evaluate pose deviations per phase instead of treating tricks as a single motion
